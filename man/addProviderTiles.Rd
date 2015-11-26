@@ -27,7 +27,7 @@ identifier-style names.}
 
 \item{options}{tile options}
 
-\item{errorTileUrl, noWrap, opacity, zIndex, unloadInvisibleTiles, updateWhenIdle, detectRetina, reuseTiles}{the tile layer options; see
+\item{errorTileUrl,  noWrap,  opacity,  zIndex,  unloadInvisibleTiles,  updateWhenIdle,  detectRetina,  reuseTiles}{the tile layer options; see
 \url{http://leafletjs.com/reference.html#tilelayer}}
 
 \item{...}{named parameters to add to the options}
@@ -41,4 +41,5 @@ Add a tile layer from a known map provider
 \examples{
 leaflet() \%>\% addProviderTiles("Stamen.Watercolor") \%>\% 
     addProviderTiles("Stamen.TonerHybrid")
+
 }

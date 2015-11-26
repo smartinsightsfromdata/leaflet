@@ -34,7 +34,7 @@ and that \code{extent(x)} is expressed in WGS84 latitude/longitude
 coordinates}
 
 \item{maxBytes}{the maximum number of bytes to allow for the projected image
-  (before base64 encoding); defaults to 4MB.}
+(before base64 encoding); defaults to 4MB.}
 }
 \description{
 Create an image overlay from a \code{RasterLayer} object. \emph{This is only

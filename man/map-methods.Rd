@@ -26,7 +26,7 @@ clearBounds(map)
 \item{options}{a list of zoom/pan options (see
 \url{http://leafletjs.com/reference.html#map-zoompanoptions})}
 
-\item{lng1, lat1, lng2, lat2}{the coordinates of the map bounds}
+\item{lng1,  lat1,  lng2,  lat2}{the coordinates of the map bounds}
 }
 \value{
 The modified map widget.

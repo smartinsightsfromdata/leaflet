@@ -85,12 +85,13 @@ leaflet( earthquakes ) %>%
 #  using data(quakes)
 data(quakes)
 
-leaflet(quakes) %>%
+leaf <- leaflet(quakes) %>%
   addTiles( ) %>%
   setView( 178, -20, 5 ) %>%
   addHeatmap( lng = ~long, intensity = ~mag,
               blur = 20, max = 0.02, radius = 10,
               gradient = "Greys" )
 
+leaf
 # to remove the heatmap
 leaf %>% clearHeatmap()

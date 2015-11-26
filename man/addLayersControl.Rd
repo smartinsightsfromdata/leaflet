@@ -27,7 +27,7 @@ group. The user can turn each overlay group on or off independently.}
 'bottomright'}
 
 \item{options}{a list of additional options, intended to be provided by
-  a call to \code{layersControlOptions}}
+a call to \code{layersControlOptions}}
 
 \item{collapsed}{if \code{TRUE} (the default), the layers control will be
 rendered as an icon that expands when hovered over. Set to \code{FALSE}
@@ -49,4 +49,5 @@ leaflet() \%>\% addTiles(group = "OpenStreetMap") \%>\% addProviderTiles("Stamen
     41, 42), group = "Markers") \%>\% addLayersControl(baseGroups = c("OpenStreetMap", 
     "Toner by Stamen"), overlayGroups = c("Markers"))
 }
+
 }

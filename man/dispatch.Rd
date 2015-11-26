@@ -20,7 +20,7 @@ this \code{dispatch} call; for error message purposes}
 \code{\link{leaflet}}}
 
 \item{leaflet_proxy}{an action to be performed if the map is from
-  \code{\link{leafletProxy}}}
+\code{\link{leafletProxy}}}
 
 \item{data}{a data object that will be used when evaluating formulas in
 \code{...}}

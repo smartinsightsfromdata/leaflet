@@ -17,9 +17,9 @@ default value will suffice}
 topic}
 
 \item{deferUntilFlush}{indicates whether actions performed against this
-  instance should be carried out right away, or whether they should be held
-  until after the next time all of the outputs are updated; defaults to
-  \code{TRUE}}
+instance should be carried out right away, or whether they should be held
+until after the next time all of the outputs are updated; defaults to
+\code{TRUE}}
 }
 \description{
 Creates a map-like object that can be used to customize and control a map
@@ -63,4 +63,5 @@ server <- function(input, output, session) {
 shinyApp(ui, server)
 
 }
+
 }

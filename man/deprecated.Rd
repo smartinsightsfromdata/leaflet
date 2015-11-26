@@ -11,9 +11,9 @@ leafletMap(outputId, width, height,
   initialTileLayerAttribution = NULL, options = NULL)
 }
 \arguments{
-\item{session, outputId}{Deprecated}
+\item{session,  outputId}{Deprecated}
 
-\item{width, height, initialTileLayer, initialTileLayerAttribution, options}{Deprecated}
+\item{width,  height,  initialTileLayer,  initialTileLayerAttribution,  options}{Deprecated}
 }
 \description{
 These functions are provided for backwards compatibility with the first

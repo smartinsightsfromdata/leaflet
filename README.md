@@ -1,6 +1,6 @@
 # An R Interface to Leaflet Maps
 
-[![Build Status](https://travis-ci.org/rstudio/leaflet.svg)](https://travis-ci.org/rstudio/leaflet)
+This is my own copy of the rstudio/leaflet package - It merges the heatmap pr developed by timelyportfolio (not yet merged in the offical copy)
 
 [Leaflet](http://leafletjs.com) is an open-source JavaScript library for
 interactive maps. This R package makes it easy to create Leaflet maps from R.

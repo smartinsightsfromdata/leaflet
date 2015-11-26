@@ -35,8 +35,8 @@ colorFactor(palette, domain, levels = NULL, ordered = FALSE, na.color = "#808080
 \code{na.color=NA} is valid.}
 
 \item{alpha}{Whether alpha channels should be respected or ignored. If
-  \code{TRUE} then colors without explicit alpha information will be treated
-  as fully opaque.}
+\code{TRUE} then colors without explicit alpha information will be treated
+as fully opaque.}
 
 \item{bins}{Either a numeric vector of two or more unique cut points or a
 single number (greater than or equal to 2) giving the number of intervals
